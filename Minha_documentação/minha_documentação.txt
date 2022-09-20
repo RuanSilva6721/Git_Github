@@ -8,3 +8,4 @@
 -git mv 'arquivo' 'local para mover/arquivo_renomeado': para mover os arquivos e renomear
 -git checkout: retornar ao estado original
 - .gitignore: ignorando arquivos no projeto
+-git reset --hard 'branch': resertar todas as mudanças feitas, exemplos: -git reset --hard origin/main
