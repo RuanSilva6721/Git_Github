@@ -9,3 +9,8 @@
 -git checkout: retornar ao estado original
 - .gitignore: ignorando arquivos no projeto
 -git reset --hard 'branch': resertar todas as mudanças feitas, exemplos: -git reset --hard origin/main
+
+*Gerenciando várias branch
+-git branch: ver as branch
+-git branch 'nome da nova branch': criando uma nova branch
+-git
