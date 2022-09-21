@@ -13,4 +13,7 @@
 *Gerenciando várias branch
 -git branch: ver as branch
 -git branch 'nome da nova branch': criando uma nova branch
--git
+-git branch -d 'nome da branch': deletar uma branch
+-git checkout -b 'nome da branch': para mudar de branch
+-git merge 'nome da branch que deseja unir': para unir branchs 
+-git 
