@@ -16,4 +16,9 @@
 -git branch -d 'nome da branch': deletar uma branch
 -git checkout -b 'nome da branch': para mudar de branch
 -git merge 'nome da branch que deseja unir': para unir branchs 
--git 
+-git stash: reverter as modificações, porém salvar as modificações para depois pode buscar ou não
+-git stash list: listar as stash
+-git stash apply 'id da stash que deseja recuperar': para recuperar uma stash
+-git stash show -p 'id da stash': mostra exatamente as modificações realizados
+-git stash clear: para remover todas as stash criadas
+-git stash drop 'id da stash': para remover uma stash especifica
