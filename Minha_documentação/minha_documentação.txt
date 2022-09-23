@@ -43,3 +43,11 @@
 -git submodule: ver os submódulos
 -git submodule add 'link do repositório que vai ser o submodule': adicionar um submódulo ao projeto
 -git push --recurse-submodules=on-demand: atualizar submódulo
+
+*Análise e inspeção de repositórios
+-git show: Mostra diversas informações úteis de branch
+-git diff: serve para exibir as diferenças de um branch
+-git diff 'branch': diferença entre o branch na máquina para o repositório
+-git shortlog: Dá um log resumido do projeto
+
+*administração do repositórios
