@@ -8,7 +8,7 @@
 -git mv 'arquivo' 'local para mover/arquivo_renomeado': para mover os arquivos e renomear
 -git checkout: retornar ao estado original
 - .gitignore: ignorando arquivos no projeto
--git reset --hard 'branch': resertar todas as mudanças feitas, exemplos: -git reset --hard origin/main
+-git reset --hard 'commit': resertar todas as mudanças feitas, exemplos: -git reset --hard origin/main
 
 *Gerenciando várias branch
 -git branch: ver as branch
@@ -51,3 +51,10 @@
 -git shortlog: Dá um log resumido do projeto
 
 *administração do repositórios
+-git clean: limpar arquivos não estão sendo trackeados(que não ultizou o 'git add')
+-git gc: É uma abreviação para garbage collector, aciona o garbage collector no repositório
+-git fsck: É uma abreviação de File System Check, verifica a integridade de arquivos e sua conectividade 
+-git reflog: vai mapear todos os seus passos no repositório, até uma mudança de branch é inserida neste log, reflogs ficam salvos até expirar(30dias)
+-git archive --format zip --output master_files.zip 'branch': transformar o repo em um arquivo compactado
+
+*melhorando os commits
