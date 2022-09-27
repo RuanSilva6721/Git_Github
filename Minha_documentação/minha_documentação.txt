@@ -58,3 +58,4 @@
 -git archive --format zip --output master_files.zip 'branch': transformar o repo em um arquivo compactado
 
 *melhorando os commits
+
