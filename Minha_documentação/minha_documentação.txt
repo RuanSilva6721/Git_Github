@@ -57,5 +57,8 @@
 -git reflog: vai mapear todos os seus passos no repositório, até uma mudança de branch é inserida neste log, reflogs ficam salvos até expirar(30dias)
 -git archive --format zip --output master_files.zip 'branch': transformar o repo em um arquivo compactado
 
-*melhorando os commits
-
+*github
+- Issue: podemos criar tarefas ou possiveis bugs do projeto nessa aba, parecido com o Jira
+    1-Assignees: pessoa ou pessoas responsaveis pela tarefa ou bug
+    2-Labels: Categorias da tarefa, ex: se um bug, uma funcionalidade etc...
+- Pull Request: por onde enviando asnovas funcionalidade ou  solução de bugs para branch
