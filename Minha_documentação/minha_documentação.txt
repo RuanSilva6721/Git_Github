@@ -8,7 +8,7 @@
 -git mv 'arquivo' 'local para mover/arquivo_renomeado': para mover os arquivos e renomear
 -git checkout: retornar ao estado original
 - .gitignore: ignorando arquivos no projeto
--git reset --hard 'branch': resertar todas as mudanças feitas, exemplos: -git reset --hard origin/main
+-git reset --hard 'commit': resertar todas as mudanças feitas, exemplos: -git reset --hard origin/main
 
 *Gerenciando várias branch
 -git branch: ver as branch
@@ -30,3 +30,32 @@
 -git checkout 'nome da tag': para trocar de tag
 -git push origin 'nome da tag': enviar uma tag para o repositório
 -git push origin --tags: enviar todas as tags para o repositório
+
+*Compartilhamento e atualização de repositório
+-git fetch -a: encontrar branchs 
+-git push: para enviar atualizações para o repositório
+-git remote: adicionar um repo para trackear ou remover
+-git remote -v: verificar as origens
+-git remote rm origin: remoção da origem
+-git remote add origin 'link do repositório': para adicionar uma origem
+
+*submódulos:Podemos ter dois ou mais projetos no repositório, como se fosse um tag em uma escala maior
+-git submodule: ver os submódulos
+-git submodule add 'link do repositório que vai ser o submodule': adicionar um submódulo ao projeto
+-git push --recurse-submodules=on-demand: atualizar submódulo
+
+*Análise e inspeção de repositórios
+-git show: Mostra diversas informações úteis de branch
+-git diff: serve para exibir as diferenças de um branch
+-git diff 'branch': diferença entre o branch na máquina para o repositório
+-git shortlog: Dá um log resumido do projeto
+
+*administração do repositórios
+-git clean: limpar arquivos não estão sendo trackeados(que não ultizou o 'git add')
+-git gc: É uma abreviação para garbage collector, aciona o garbage collector no repositório
+-git fsck: É uma abreviação de File System Check, verifica a integridade de arquivos e sua conectividade 
+-git reflog: vai mapear todos os seus passos no repositório, até uma mudança de branch é inserida neste log, reflogs ficam salvos até expirar(30dias)
+-git archive --format zip --output master_files.zip 'branch': transformar o repo em um arquivo compactado
+
+*melhorando os commits
+
