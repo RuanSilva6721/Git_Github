@@ -58,7 +58,19 @@
 -git archive --format zip --output master_files.zip 'branch': transformar o repo em um arquivo compactado
 
 *github
-- Issue: podemos criar tarefas ou possiveis bugs do projeto nessa aba, parecido com o Jira
+- Issues: podemos criar tarefas ou possiveis bugs do projeto nessa aba, parecido com o Jira
     1-Assignees: pessoa ou pessoas responsaveis pela tarefa ou bug
     2-Labels: Categorias da tarefa, ex: se um bug, uma funcionalidade etc...
 - Pull Request: por onde enviando asnovas funcionalidade ou  solução de bugs para branch
+-Actions: é onde se cria as automatizações de deploy com integração em outros serviços, incluindo CI/CD(Continuous Integration/ Continuous Development)
+-Projects: podemos criar um projeto e ultilizar um quadro de tarefas, lembra o Trello
+-Wiki: podemos criar uma documentação mais extensa para o  projeto
+Insights: informações detalhaas do projeto, um relatorio do projeto
+
+*Markdown
+-Titulo: # =>h1, ## =>h2 etc...
+-Ênfase: negrito '**texto**, italico '*texto*' ou '__texto__'
+-Listas: não ordenada '* item', ordenada '1. item'
+-imagem: ![Testo Alt](link imagem)
+-Link: [Texto do link](link)
+-código: ````código```, apenas para o github
