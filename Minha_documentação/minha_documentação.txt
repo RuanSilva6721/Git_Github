@@ -1,7 +1,7 @@
 -git status: verificar as mudanças do projeto
 -git remote -v: ver a origem
 -git remote rm origin: remover a origem
--git add origin 'link do repositório': adicionar a origem
+-git remote add origin 'link do repositório': adicionar a origem
 -git rm 'nome do arquivo': deletar arquivos
 -git log: informações sobres os commits realizados ,'ctrl + c ou ctrl +q' para sair do terminal do git log
 -git mv 'arquivo' 'local para mover/arquivo': para mover os arquivos
